@@ -1,14 +1,14 @@
 public class Walking {
     public static void main(String[] args) {
-        boolean nite = false;
+        boolean night = false;
         boolean weather = false;
-        if (nite) {
+        if (night) {
             System.out.println("Спать");
         }
-        if (!nite && weather) {
+        if (!night && weather) {
             System.out.println("Гулять");
         }
-        if (!nite && !weather) {
+        if (!night && !weather) {
             System.out.println("Читать книгу");
         }
     }
